@@ -34,6 +34,7 @@ Here is an exploratory visualization of the data set.
 ![alt text][visualization_image]
 
 The bar chart below shows how the data is distributed at each class. The distributions of training data, verification data and test data are similar.
+
 ![alt text][histogram_training]
 ![alt text][histogram_validation]
 ![alt text][histogram_test]
@@ -89,6 +90,8 @@ Here are six German traffic signs that I found on the web:
 
 ![alt text][webImage1] ![alt text][webImage2] ![alt text][webImage3] 
 ![alt text][webImage4] ![alt text][webImage5] ![alt text][webImage6]
+
+Because the sizes of the images obtained from the web are different, I resize them to 32x32.
 
 The second image might be difficult to classify because the sign is located on the right side of the image. Also, The sixth image might be hard because the class "40" in the training data has a relatively small number of data.
 

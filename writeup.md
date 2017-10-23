@@ -4,11 +4,11 @@
 [//]: # (Image References)
 
 [visualization_image]: ./writeup_images/visualization.png "Visualization"
-[histogram_training]: ./writeup_images/histogram_traning.png "Histogram of training data"
+[histogram_training]: ./writeup_images/histogram_training.png "Histogram of training data"
 [histogram_validation]: ./writeup_images/histogram_validation.png "Histogram of validation data"
 [histogram_test]: ./writeup_images/histogram_test.png "Histogram of test data"
-[grayscaling]: ./examples/grayscaling.png "Grayscaling"
-[normalization]: ./examples/grayscale_normalization.png "Normalization"
+[grayscaling]: ./writeup_images/grayscaling.png "Grayscaling"
+[normalization]: ./writeup_images/grayscale_normalization.png "Normalization"
 [webImage1]: ./webImage/c12_Priorityroad.jpg "Traffic Sign 1"
 [webImage2]: ./webImage/c13_yield.jpg "Traffic Sign 2"
 [webImage3]: ./webImage/c17_noentry.jpeg "Traffic Sign 3"
@@ -112,7 +112,7 @@ The image below is bar chart of softmax probabilities for each image.
 For the second image, which I think is likely to be misclassified, the maximum probabilty is quite high, and it predicts the right label.
 For the sixth image, which is misclassified, the prediction is failed and the second highest probability is also wrong label.
 Considering that the two groups with the highest probability are "12", "13" classes and the misclassified  classes have the third and the fourth largest number of test data, data imbalance in test data might affect the result.
-[alt text][webchart]
+![alt text][webchart]
 
 
 
